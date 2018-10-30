@@ -11,6 +11,7 @@ set(minuet_EXERCISES
     scales-bebop-exercises.json
     rhythm-easy.json
     rhythm-medium.json
+    singing-single-note-exercises.json
 )
 
 install(FILES ${minuet_EXERCISES} DESTINATION ${KDE_INSTALL_DATADIR}/minuet/exercises)

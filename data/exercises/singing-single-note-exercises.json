@@ -1,0 +1,20 @@
+{
+  "exercises": [
+    {
+      "name": "Singing",
+      "root": "41..67",
+      "playMode": "scale",
+      "userMessage": "Hear the notes and sing it as close as possible",
+      "numberOfSelectedOptions": 1,
+      "_icon": "minuet-rhythms.svg",
+      "children": [
+        {
+          "name": "Single Note",
+          "and-tags": [
+            "sing"
+          ]
+        }
+      ]
+    }
+  ]
+}
