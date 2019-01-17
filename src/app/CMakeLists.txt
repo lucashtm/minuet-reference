@@ -6,11 +6,11 @@ set(minuet_SRCS
     exercisecontroller.cpp
 )
 
-if (Qt5QuickCompiler_FOUND)
-    qtquick_compiler_add_resources(minuet_qml_SRCS qml.qrc)
-else ()
+# if (Qt5QuickCompiler_FOUND)
+#     qtquick_compiler_add_resources(minuet_qml_SRCS qml.qrc)
+# else ()
     qt5_add_resources(minuet_qml_SRCS qml.qrc)
-endif()
+# endif()
 
 IF(NOT ${CMAKE_SYSTEM_NAME} MATCHES "Android")
     set(minuet_ICONS_PNG

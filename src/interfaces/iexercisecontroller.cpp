@@ -21,7 +21,7 @@
 ****************************************************************************/
 
 #include "iexercisecontroller.h"
-
+#include <QDebug>
 #include <qqml.h>
 
 namespace Minuet
@@ -41,6 +41,7 @@ void IExerciseController::setCurrentExercise(QVariantMap currentExercise)
 {
     if (m_currentExercise != currentExercise) {
         m_currentExercise = currentExercise;
+        qDebug() << currentExercise;
         m_selectedExerciseOptions = QJsonArray();
         emit currentExerciseChanged(m_currentExercise);
     }

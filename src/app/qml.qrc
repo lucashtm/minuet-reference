@@ -7,6 +7,8 @@
         <file alias="MinuetMenuContainer.qml">qml/MinuetMenuContainer.qml</file>
         <file alias="ImageItemDelegate.qml">qml/ImageItemDelegate.qml</file>
         <file alias="+android/MinuetMenuContainer.qml">+android/qml/MinuetMenuContainer.qml</file>
+        <file alias="AvailableAnswers.qml">qml/AvailableAnswers.qml</file>
+        <file alias="SpectreView.qml">qml/SpectreView.qml</file>
         <file alias="ExerciseView.qml">qml/ExerciseView.qml</file>
         <file alias="BlackKey.qml">qml/PianoView/BlackKey.qml</file>
         <file alias="Octave.qml">qml/PianoView/Octave.qml</file>

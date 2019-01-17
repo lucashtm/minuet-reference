@@ -30,13 +30,13 @@
 #endif
 
 #include <QIcon>
-#include <QGuiApplication>
+#include <QApplication>
 #include <QCommandLineParser>
 
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-    QGuiApplication application(argc, argv);
+    QApplication application(argc, argv);
 
 #if !defined(Q_OS_ANDROID)
     KCrash::initialize();

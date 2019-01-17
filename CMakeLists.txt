@@ -16,8 +16,10 @@ set (KDE_APPLICATIONS_VERSION "0.4.0")
 
 set(ECM_MIN_VERSION "5.15.0")
 set(QT_MIN_VERSION "5.7.0")
+set(CMAKE_AUTOUIC TRUE)
 
 find_package(ECM ${ECM_MIN_VERSION} CONFIG REQUIRED)
+
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${minuet_SOURCE_DIR}/cmake)
 
 include(GenerateExportHeader)
@@ -39,6 +41,7 @@ find_package(Qt5 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
     Quick
     QuickControls2
     Svg
+    Multimedia
 )
 
 find_package(Qt5 CONFIG QUIET OPTIONAL_COMPONENTS QuickCompiler)
